@@ -65,7 +65,7 @@ p {
 /* Contenedores y "Paralax" */
 
 .paralax1 {
-    background-image: url("/assets/img/paralax/Arredo3_asia_05.jpg");
+    background-image: url("src/assets/img/Arredo3_asia_05small.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ p {
 }
 
 .paralax2 {
-    background-image: url("/assets/img/paralax/catalano.jpg");
+    background-image: url("src/assets/img/catalano.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
