@@ -128,3 +128,13 @@ button:hover {
     margin: 60px 20px 60px 20px;
     background-color: #F8F9FA;
 }
+
+
+/* RESPONSIVE */
+
+@media (max-width:530px) {
+    .homeheader {
+        max-height: 80px;
+        margin-top: 40px;
+    }
+}

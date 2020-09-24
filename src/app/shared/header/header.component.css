@@ -76,7 +76,7 @@ header {
 }
 
 .milogo {
-    max-height: 106px;
+    max-height: 100px;
     margin-right: 15px;
 }
 
@@ -153,12 +153,12 @@ header {
 
 @media (max-width:530px) {
     .VISTALEGRE_ {
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 0.05em;
         color: rgb(0, 0, 0);
     }
     .INNOVACIÓN_Y_DISEÑO {
-        font-size: 12px;
+        font-size: 8px;
         letter-spacing: 0.46em;
         padding-left: 6px;
         color: rgb(0, 0, 0);
@@ -168,7 +168,8 @@ header {
         align-items: center;
         margin: 0px auto;
     }
-    .homeheader {
-        margin-top: 230px;
+    .milogo {
+        max-height: 66px;
+        margin-right: 15px;
     }
 }
