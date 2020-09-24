@@ -1,0 +1,174 @@
+/* Fuentes personalizadas para el logo*/
+
+@font-face {
+    font-family: 'Jost', sans-serif;
+    src: local("fonts/Jost-ExtraLight.ttf"), url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.VISTALEGRE_ {
+    font-size: 60px;
+    font-family: "Jost";
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+}
+
+.INNOVACIÓN_Y_DISEÑO {
+    font-size: 19px;
+    font-family: "Jost";
+    font-weight: 300;
+    letter-spacing: 0.46em;
+    padding-left: 6px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* Estilos enlaces */
+
+a {
+    color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    color: whitesmoke;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 1px 1px black;
+    text-shadow: 1px 0px 0px gray inset;
+}
+
+#collapseExample>div>div>a {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+#collapseExample>div>div>a:hover {
+    text-decoration: none !important;
+}
+
+body {
+    position: relative !important;
+    margin: 0px !important;
+    padding: 0px;
+}
+
+
+/* Personalización de cabecera */
+
+header {
+    display: flexbox;
+    position: relative;
+    width: 100%;
+}
+
+.namelogo {
+    text-align: center;
+}
+
+.logo {
+    display: inline-flex;
+    margin: 10px 0px 15px 30px;
+}
+
+.milogo {
+    max-height: 106px;
+    margin-right: 15px;
+}
+
+.homeheader {
+    width: 14%;
+    margin-top: 130px;
+    padding: 5px 0px 6px 0px;
+    background-color: #cccccc83;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+.homeheader:hover {
+    width: 16%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-example2 {
+    box-shadow: 0px 0.02em 0px hsl(0, 0%, 40%), 0px 0.03em 0px hsl(0, 0%, 39%), 0px 0.04em 0px hsl(0, 0%, 38%), 0px 0.05em 0px hsl(0, 0%, 37%), 0px 0.06em 0px hsl(0, 0%, 36%), 0px 0.07em 0px hsl(0, 0%, 35%), 0px 0.08em 0px hsl(0, 0%, 34%), 0px 0.09em 0px hsl(0, 0%, 40%), 0px 0.10em 0px hsl(0, 0%, 39%), 0px 0.11em 0px hsl(0, 0%, 38%), 0px 0.12em 0px hsl(0, 0%, 37%), 0px 0.13em 0px hsl(0, 0%, 36%), 0px 0.14em 0px hsl(0, 0%, 35%), 0px 0.15em 0px hsl(0, 0%, 34%);
+}
+
+.sticky-top {
+    top: 0;
+}
+
+.card {
+    position: relative;
+    background-attachment: fixed;
+    height: 70vh;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-flow: column-reverse;
+    min-height: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#collapseExample>div>div>span {
+    padding-bottom: 60px;
+}
+
+
+/* Navbar */
+
+.pages {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    padding: 4px 14px 4px 26px;
+}
+
+.home {
+    padding-bottom: 2.4px;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 80%;
+}
+
+.justify-content-end {
+    flex-direction: row;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:530px) {
+    .VISTALEGRE_ {
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        color: rgb(0, 0, 0);
+    }
+    .INNOVACIÓN_Y_DISEÑO {
+        font-size: 12px;
+        letter-spacing: 0.46em;
+        padding-left: 6px;
+        color: rgb(0, 0, 0);
+    }
+    .logo {
+        display: inline-flex;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .homeheader {
+        margin-top: 230px;
+    }
+}

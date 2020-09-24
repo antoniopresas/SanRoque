@@ -1,0 +1,130 @@
+/* Estilos enlaces */
+
+a {
+    color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    color: whitesmoke;
+    letter-spacing: 0.05em;
+    text-shadow: 0px 1px 1px black;
+    text-shadow: 1px 0px 0px gray inset;
+}
+
+
+/* Navbar */
+
+.pages {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    padding: 4px 14px 10px 26px;
+}
+
+.home {
+    padding-bottom: 2.4px;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 80%;
+}
+
+.justify-content-end {
+    flex-direction: row;
+}
+
+
+/* Estilos contenedor */
+
+.container-fluid {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+h4 {
+    padding-top: 70px;
+}
+
+p {
+    color: #343A40;
+    margin: 0px auto;
+}
+
+
+/* Contenedores y "Paralax" */
+
+.paralax1 {
+    background-image: url("/assets/img/paralax/Arredo3_asia_05.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.paralax2 {
+    background-image: url("/assets/img/paralax/catalano.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.paralax1>div>span>p,
+.paralax2>div>span>p {
+    padding: 0px 15px 5px 15px;
+    color: white;
+}
+
+.container-sm {
+    height: 104vh;
+    white-space: pre-line;
+}
+
+body>div.container-fluid.data-spy\=>div.subcontent.container-sm {
+    background-color: white;
+    color: black !important;
+}
+
+body>div.container-fluid.data-spy\=>div.subcontent.container-sm>p {
+    color: black
+}
+
+.intodetail {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.600);
+    width: 60%;
+    height: 42%;
+    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+}
+
+button:hover {
+    color: black !important;
+    enable-background: white !important;
+}
+
+
+/* Contenedor de páginas creadas */
+
+.contenido {
+    display: flex;
+    text-align: justify;
+    line-height: 26px;
+    padding: 32px;
+    margin: 60px 20px 60px 20px;
+    background-color: #F8F9FA;
+}
